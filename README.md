@@ -44,9 +44,9 @@ After installing the project, you can make changes to the project in Unity at an
 
 3. Decide what you would like to name your branch (i.e. "Add-Racing-Items" or "Redo-Main-Menu"). It is common practice to replace whitespace with dashes in branch names, so try and remember to do that.
 
-4. Run the following command (FROM THE MASTER BRANCH): `git checkout -b YOUR-BRANCH-NAME-HERE`.
+4. Run the following command (FROM THE MASTER BRANCH): `git checkout -b BRANCH-NAME-HERE`.
 
-Now you will be in your own branch, which you can make changes from. If you leave this branch and want to return to it, run the `git checkout YOUR-BRANCH-NAME-HERE` command.
+Now you will be in your own branch, which you can make changes from. If you leave this branch and want to return to it, run the `git checkout BRANCH-NAME-HERE` command.
 
 
 
@@ -68,7 +68,7 @@ Once you make changes to the project and would like to submit these changes, you
 
 Type a short and concise commit message that will be helpful for others to understand what your commit is changing/adding (i.e. "Added a mushroom and star item" or "Fixed the invisible wall glitch"). Use the ':wq' command to exit and save after finishing your message.
 
-6. After typing your message, run the `git push` command to push your changes up to the GitHub project website.
+6. After typing your message, run the `git push` command to push your changes up to the GitHub project website. If this is your first push on the branch, you will have to run the `git push --set-upstream origin BRANCH-NAME-HERE` command.
 
 
 
