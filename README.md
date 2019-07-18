@@ -1,4 +1,4 @@
-# Game
+# Local Racing (Xbox360 - Controller Support)
 
 GitHub is an online application that can be used to share files and work on projects collaboratively. It is an application that is easy to git(get), learn, and use.
 
@@ -28,6 +28,8 @@ GitHub runs online, thus nothing needs to be installed for it to be used, other 
 2. Next, run this command: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force` (Answer 'Y' if this brings up a bunch of text asking to install another program, then run this command again).
 
 3. In Powershell, navigate to your Git project folder directory (using `cd` and `dir`) and then run the `Import-Module posh-git` command.
+
+4. Run the `Add-PoshGitToProfile` command to ensure that Posh-Git runs every time Powershell is opened.
 
 Posh-Git provides extra details for Git branches that show you how many changes that you've made, and how different your branch is from the main branch.
 
